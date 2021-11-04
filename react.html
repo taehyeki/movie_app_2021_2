@@ -16,12 +16,8 @@
       const [amount, setAmout] = React.useState(0);
       const [flip, setFlip] = React.useState(false);
       const onChange = (e) => {
-        
-   
         const inputValue = +e.target.value
-
         if (isNaN(inputValue)) return
-    
         setAmout(current => inputValue)
       }
       const onClick = () => {
@@ -41,17 +37,14 @@
           <button onClick={onClick}>FLIP</button>
         </div>
       )
-      
+
     }
     const KtoM = () =>{
       const [amount, setAmout] = React.useState(0);
       const [flip, setFlip] = React.useState(false);
       const onChange = (e) => {
-
         const inputValue = +e.target.value
-
         if (isNaN(inputValue)) return
-    
         setAmout(current => inputValue)
       }
       const onClick = () => {
