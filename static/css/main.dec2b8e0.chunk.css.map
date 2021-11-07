@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/router/Detail.css"],"names":[],"mappings":"AAAA,SACE,QAAS,CACT,SAAU,CACV,eAAgB,CAChB,uBAA2B,CAC3B,qBACF","file":"main.dec2b8e0.chunk.css","sourcesContent":[".backImg {\n  border: 0;\n  padding: 0;\n  min-height: 100%;\n  background-position: center;\n  background-size: cover;\n}\n"]}
